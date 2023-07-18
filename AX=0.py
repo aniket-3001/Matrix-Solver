@@ -122,7 +122,7 @@ def sol_par_vector(matrix, row, col, pivot_lst):
 
 
 # Main Program
-matrix, m, n = return_matrix("2022073_Aniket/matrix.txt")
+matrix, m, n = return_matrix("Matrix-Solver/matrix.txt")
 pivot_lst = []
 zero_matrix = True
 for i in range(m):
